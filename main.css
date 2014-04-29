@@ -1,0 +1,90 @@
+header {
+	font-family: futura;
+	font-size: 50pt;
+	font-weight: bold;
+	position: relative;
+	color: #FFFFFF;
+	top: 20px;
+	text-align: center;
+}
+.top {
+	width: 300px;
+	height: 100px;
+	display: block;
+	position: relative;
+	left: 482.5px;
+	top: 40px;
+}
+.list {
+	width: 400px;
+	height: 500px;
+	border-radius: 10px;
+	position: relative;
+	margin-bottom: 50px;
+	background-image: url('images/paper.jpg');
+	color: gray;
+	left: 432.5px;
+	top: 60px;
+}
+#instructions {
+	text-align: left;
+	text-decoration: none;
+	font-family: futura;
+	font-size: 12pt;
+	font-weight: bold;
+	position: relative;
+	color: white;
+	left: 10px;
+	width: 300px;
+}
+#items {
+	text-align: center;
+	text-decoration: none;
+	font-family: courier;
+	font-size: 16pt;
+	position: relative;
+	top: 10px;
+	line-height: 60px;
+}
+body {
+	background-image: url("images/strawberries.jpg");
+}
+#entry {
+	width: 150px;
+	font-family: futura;
+	height: 30px;
+	border-radius: 6px;
+	font-size: 16pt;
+	vertical-align: middle;
+	border: transparent;
+	position: relative;
+	left: 10px;
+	text-align: center;
+	color: red;
+}
+#entry:focus {
+	outline: none;
+}
+#entry:hover {
+	border: 4px dotted red;
+}
+#add {
+	width: 60px;
+	font-family: futura;
+	height: 60px;
+	border-radius: 60px;
+	position: relative;
+	left: 70px;
+	border: transparent;
+	background: white;
+	top: 20px;
+	font-size: 14pt;
+	font-weight: bold;
+	color: red;
+}
+#add:focus {
+	outline: none;
+}
+#add:hover {
+	border: 4px dotted red;
+}
